@@ -1,0 +1,11 @@
+DEFINED_PHASES=compile configure install postinst test
+DESCRIPTION=DUMA (Detect Unintended Memory Access) is a memory debugging library
+EAPI=6
+HOMEPAGE=http://duma.sourceforge.net
+IUSE=examples
+KEYWORDS=amd64 ppc x86
+LICENSE=GPL-2
+SLOT=0
+SRC_URI=mirror://sourceforge/duma/duma_2_5_15.tar.gz mirror://gentoo/duma-2.5.15-GNUmakefile.patch.bz2
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	multilib	97566c1a256d07b00848aa767e38a352	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	versionator	d3fb3ba33acc3bbbdc4d7970227c100d
+_md5_=f90b4a92c41b53cb5ed956806d6b29ed
